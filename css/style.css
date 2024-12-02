@@ -1,0 +1,55 @@
+html, body {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color: #f8f9fa;
+}
+.nav-link {
+    color: white;
+}
+.nav-link:hover {
+    color: #ddd;
+}
+.sidebar {
+    background-color: #343a40;
+    min-height: 100vh;
+    padding-top: 20px;
+}
+.sidebar .nav-link {
+    margin-bottom: 10px;
+}
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: auto; /* Pushes footer to the bottom */
+}
+.main-content {
+    padding: 20px;
+    flex-grow: 1; /* Allows main content to take remaining space */
+}
+.navbar-dark {
+    background-color: #000 !important;
+}
+.logo {
+    width: 40px; /* Adjust the logo size */
+    height: auto;
+    margin-right: 10px;
+}
+.header-title {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.header {
+    background-color: #343a40; /* Dark background */
+    padding: 15px;
+}
+.functionality-card {
+    margin: 20px 0;
+}
+
