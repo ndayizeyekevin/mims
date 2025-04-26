@@ -128,7 +128,7 @@
                     });
 
                     (function() {
-                        emailjs.init('E-VlqczUjJa2vscov'); // Replace with your EmailJS User ID
+                        emailjs.init('Enter you EmailJS User ID'); // Replace with your EmailJS User ID
                     })();
 
                     async function sendKey() {
@@ -143,7 +143,7 @@
                         };
 
                         try {
-                            const response = await emailjs.send('service_4dboqlo', 'template_a8co1k1', templateParams);
+                            const response = await emailjs.send('service_ID', 'template_ID', templateParams); //Replace with your credentials from EmailJS 
                             Swal.fire({
                                 icon: 'success',
                                 title: 'Email Sent',
