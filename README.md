@@ -16,7 +16,7 @@
 ## ✨ Key Features
 
 - 📋 Register and manage clients and their insurance information  
-- 💊 Record medication transactions with digital prescription uploads and generate an  invoice 
+- 💊 Record medication transactions with digital prescription uploads, generate an invoice with patient's coverage and insurance company coverage  
 - 📂 Link each transaction with an insurance company  
 - 📑 Generate monthly reports for insurance reimbursement  
 - 🔐 Secure role-based access for staff  
